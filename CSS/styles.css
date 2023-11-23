@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 40rem;
+    height: 20rem;
+    margin: 10rem auto;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item{
+    display: none;
+    height: 30rem;
+    width: 40rem;
+}
+
+.active {
+    display: block;
+}
+
+.scroll-button{
+    position: absolute;
+    right: 45%;
+    color: #000;
+    border: 0;
+    border-radius: 50%;
+    font-size: 2rem; 
+}
+
+.up{
+    top: .2rem;
+}
+
+.down{
+    bottom: .2rem;
+}
+
+
+.slider{
+    position: relative;
+}
+
+.hidden{
+    display: none;
+}
