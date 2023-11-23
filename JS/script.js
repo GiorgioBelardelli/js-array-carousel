@@ -17,12 +17,7 @@ next.addEventListener("click",
             immagini[activeItem].classList.add("active");
 
             if (activeItem === immagini.length -1){
-
-                immagini[activeItem].classList.remove("active");
-                    
-                activeItem = 0;
-
-                immagini[activeItem].classList.add("active");
+            next.classList.add("hidden");
             }
 
         }
@@ -41,7 +36,7 @@ prev.addEventListener("click",
 
             immagini[activeItem].classList.add("active");
 
-            if (activeItem === immagini[0]){
+            if (activeItem === immagini[]){
                 prev.classList.add("hidden");
             }
 
